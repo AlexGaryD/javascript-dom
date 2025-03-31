@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Declaración del tipo de documento HTML5 y elemento raíz del documento -->
 
 <head>
   <meta charset="UTF-8">
+  <!-- Establece la codificación de caracteres del documento a UTF-8 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura la ventana gráfica para que el diseño sea adaptable a diferentes dispositivos -->
   <title>Document</title>
+  <!-- Título del documento que aparece en la pestaña del navegador -->
 </head>
 
 <body>
+  <!-- Contenido visible del documento HTML -->
+
   <header>
+    <!-- Encabezado principal del documento -->
     <h1 id="app-title">Soy el header de esta app</h1>
+    <!-- Título principal con un atributo id para identificarlo en el DOM -->
     <menu>
+      <!-- Contenedor para un menú de navegación -->
       <ul>
+        <!-- Lista desordenada que contiene los elementos del menú -->
         <li><a href="#">Home</a></li>
+        <!-- Elemento de lista con un enlace a "Home" -->
         <li class="menu-items"><a href="#">About me</a></li>
+        <!-- Elemento de lista con una clase "menu-items" y un enlace a "About me" -->
         <li class="menu-items"><a href="#">Blogs</a></li>
+        <!-- Elemento de lista con una clase "menu-items" y un enlace a "Blogs" -->
         <li class="menu-items"><a href="#">Contact</a></li>
+        <!-- Elemento de lista con una clase "menu-items" y un enlace a "Contact" -->
       </ul>
     </menu>
   </header>
+
   <main>
-    <!-- Attributes are part of HTML, like id, class, type, value, etc -->
+    <!-- Contenedor principal del contenido de la página -->
+    <!-- Atributos son parte del HTML, como id, class, type, value, etc -->
     <input id="input-id" class="input-class" type="text" value="Nombre">
+    <!-- Campo de entrada de texto con atributos id, class, type y value -->
   </main>
+
   <script src="app.js"></script>
+  <!-- Enlace a un archivo JavaScript externo llamado "app.js" -->
 </body>
 
 </html>
