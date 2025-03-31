@@ -1,38 +1,38 @@
-// Seleccionar el elemento con id "parent"
-const parent = document.getElementById("parent");
-console.log(parent); // Imprime el elemento <ul> con id "parent"
+// // Seleccionar el elemento con id "parent"
+// const parent = document.getElementById("parent");
+// console.log(parent); // Imprime el elemento <ul> con id "parent"
 
-// Obtener todos los elementos hijos directos del elemento "parent"
-const children = parent.children;
-console.log(children); // Imprime una HTMLCollection con los elementos <li> hijos directos
+// // Obtener todos los elementos hijos directos del elemento "parent"
+// const children = parent.children;
+// console.log(children); // Imprime una HTMLCollection con los elementos <li> hijos directos
 
-// Obtener el primer elemento hijo del elemento "parent"
-const firstChild = parent.firstElementChild;
-console.log(firstChild); // Imprime el primer <li> dentro del <ul>
+// // Obtener el primer elemento hijo del elemento "parent"
+// const firstChild = parent.firstElementChild;
+// console.log(firstChild); // Imprime el primer <li> dentro del <ul>
 
-// Obtener el último elemento hijo del elemento "parent"
-const lastChild = parent.lastElementChild;
-console.log(lastChild); // Imprime el último <li> dentro del <ul>
+// // Obtener el último elemento hijo del elemento "parent"
+// const lastChild = parent.lastElementChild;
+// console.log(lastChild); // Imprime el último <li> dentro del <ul>
 
-// Obtener el elemento hermano anterior del elemento "parent"
-const previousSibling = parent.previousElementSibling;
-console.log(previousSibling); // Imprime el elemento hermano anterior (si existe)
+// // Obtener el elemento hermano anterior del elemento "parent"
+// const previousSibling = parent.previousElementSibling;
+// console.log(previousSibling); // Imprime el elemento hermano anterior (si existe)
 
-// Obtener el elemento hermano siguiente del elemento "parent"
-const nextSibling = parent.nextElementSibling;
-console.log(nextSibling); // Imprime el elemento hermano siguiente (si existe)
+// // Obtener el elemento hermano siguiente del elemento "parent"
+// const nextSibling = parent.nextElementSibling;
+// console.log(nextSibling); // Imprime el elemento hermano siguiente (si existe)
 
-// Nota: Las siguientes propiedades son colecciones o nodos en vivo o no en vivo del DOM
-children; // live HTMLCollection (actualiza automáticamente si el DOM cambia)
-childNodes; // live NodeList (incluye nodos de texto, comentarios y elementos)
-firstChild; // live NodeList (incluye nodos de texto)
-firstElementChild; // non-live HTMLCollection (solo incluye elementos)
-lastChild; // live NodeList (incluye nodos de texto)
-lastElementChild; // non-live HTMLCollection (solo incluye elementos)
-previousSibling; // live NodeList (incluye nodos de texto)
-previousElementSibling; // non-live HTMLCollection (solo incluye elementos)
-nextSibling; // live NodeList (incluye nodos de texto)
-nextElementSibling; // non-live HTMLCollection (solo incluye elementos)
+// // Nota: Las siguientes propiedades son colecciones o nodos en vivo o no en vivo del DOM
+// children; // live HTMLCollection (actualiza automáticamente si el DOM cambia)
+// childNodes; // live NodeList (incluye nodos de texto, comentarios y elementos)
+// firstChild; // live NodeList (incluye nodos de texto)
+// firstElementChild; // non-live HTMLCollection (solo incluye elementos)
+// lastChild; // live NodeList (incluye nodos de texto)
+// lastElementChild; // non-live HTMLCollection (solo incluye elementos)
+// previousSibling; // live NodeList (incluye nodos de texto)
+// previousElementSibling; // non-live HTMLCollection (solo incluye elementos)
+// nextSibling; // live NodeList (incluye nodos de texto)
+// nextElementSibling; // non-live HTMLCollection (solo incluye elementos)
 
 // Seleccionar el primer elemento <li> dentro del documento
 const children2 = document.querySelector("li");
