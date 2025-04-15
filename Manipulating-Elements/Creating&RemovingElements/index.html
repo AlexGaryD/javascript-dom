@@ -23,6 +23,36 @@
   </section>
 
   <script src="app.js"></script>
+  <script>
+    // Seleccionar el contenedor con id "contentArea"
+    const contentArea = document.getElementById("contentArea");
+
+    // Crear un nuevo elemento utilizando una cadena HTML (HTML String)
+    const newParagraphHTML = '<p>Este es un nuevo párrafo creado con una cadena HTML.</p>';
+    contentArea.innerHTML += newParagraphHTML; // Agregar el nuevo párrafo al final del contenedor
+
+    // Crear un nuevo elemento utilizando createElement()
+    const newParagraph = document.createElement("p");
+    newParagraph.textContent = "Este es un nuevo párrafo creado con createElement().";
+
+    // Insertar el nuevo párrafo antes del párrafo existente
+    contentArea.insertAdjacentElement("afterbegin", newParagraph);
+
+    // Seleccionar la lista con id "listArea"
+    const listArea = document.getElementById("listArea");
+
+    // Crear un nuevo elemento de lista (li)
+    const newListItem = document.createElement("li");
+    newListItem.textContent = "item 5";
+
+    // Insertar el nuevo elemento al final de la lista
+    listArea.appendChild(newListItem);
+
+    // Crear otro elemento de lista y agregarlo al principio de la lista
+    const anotherListItem = document.createElement("li");
+    anotherListItem.textContent = "item 0";
+    listArea.insertAdjacentElement("afterbegin", anotherListItem);
+  </script>
 </body>
 
 </html>
