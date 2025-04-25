@@ -14,15 +14,22 @@ container.addEventListener("mouseout", () => {
   container.style.backgroundColor = "Crimson"; // Cambiar el fondo del contenedor a rojo cuando el mouse sale
 });
 
-// Definir una función de callback para el evento "click" del botón
 const buttonClickCallback = () => {
   alert("Button Clicked!"); // Mostrar una alerta cuando se hace clic en el botón
 };
-
 // Añadir el evento "click" al botón
 button.addEventListener("click", buttonClickCallback);
 
+
+// // Definir una función de callback para el evento "click" del botón
+// const buttonClickCallback = () => {
+//   alert("Button Clicked!"); // Mostrar una alerta cuando se hace clic en el botón
+// };
+
+// // Añadir el evento "click" al botón
+// button.addEventListener("click", buttonClickCallback);
+
 // Quitar el evento "click" del botón después de 2 segundos
 setTimeout(() => {
-  button.removeEventListener("click", buttonClickCallback); // Eliminar el evento "click" asociado al botón
-}, 2000);
+button.removeEventListener("click", buttonClickCallback); // Eliminar el evento "click" asociado al botón
+}, 6000);
