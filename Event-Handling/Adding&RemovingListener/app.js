@@ -6,12 +6,12 @@ const button = document.querySelector("button");
 
 // Añadir un evento "mouseover" al contenedor
 container.addEventListener("mouseover", () => {
-  container.style.backgroundColor = "blue"; // Cambiar el fondo del contenedor a azul cuando el mouse pasa por encima
+  container.style.backgroundColor = "MediumVioletRed"; // Cambiar el fondo del contenedor a azul cuando el mouse pasa por encima
 });
 
 // Añadir un evento "mouseout" al contenedor
 container.addEventListener("mouseout", () => {
-  container.style.backgroundColor = "red"; // Cambiar el fondo del contenedor a rojo cuando el mouse sale
+  container.style.backgroundColor = "Crimson"; // Cambiar el fondo del contenedor a rojo cuando el mouse sale
 });
 
 // Definir una función de callback para el evento "click" del botón
