@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Declaración del tipo de documento HTML5 y elemento raíz del documento -->
 
 <head>
   <meta charset="UTF-8">
+  <!-- Establece la codificación de caracteres del documento a UTF-8 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura la ventana gráfica para que el diseño sea adaptable a diferentes dispositivos -->
   <title>Document</title>
+  <!-- Título del documento que aparece en la pestaña del navegador -->
   <style>
+    /* Estilos CSS para los elementos de la página */
     .container {
       width: 100%;
       height: 130px;
       background-color: red;
+      /* Fondo rojo para el contenedor */
     }
   </style>
 </head>
 
 <body>
   <main>
+    <!-- Contenedor principal de la página -->
     <h1>Eventos!</h1>
+    <!-- Título principal -->
     <div class="container">
+      <!-- Contenedor con clase "container" -->
       <p>Este es un texto que se oculta y aparece gracias a un evento de JS</p>
+      <!-- Párrafo que será manipulado mediante eventos -->
     </div>
 
     <button id="btn">Click me!</button>
+    <!-- Botón con un id "btn" que activará eventos -->
   </main>
   <script src="app.js"></script>
+  <!-- Enlace a un archivo JavaScript externo llamado "app.js" -->
 </body>
 
 </html>
