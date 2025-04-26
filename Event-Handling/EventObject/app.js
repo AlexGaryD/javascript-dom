@@ -6,9 +6,10 @@ const button = document.querySelector("button");
 const buttonClicked = (event) => {
   // `event` es el objeto del evento que contiene información sobre el evento que ocurrió.
 
-  console.log(event.target);
+  console.log(event);
   // Muestra en la consola el elemento HTML que disparó el evento (en este caso, el botón).
-
+  console.log(event.target); 
+  // Muestra el elemento HTML que disparó el evento (en este caso, el botón).
   console.log(event.target.id);
   // Muestra el atributo `id` del elemento que disparó el evento.
   // Si el botón no tiene un `id`, imprimirá `undefined`.
