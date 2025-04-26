@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Declaración del tipo de documento HTML5 y elemento raíz del documento -->
 
 <head>
   <meta charset="UTF-8">
+  <!-- Establece la codificación de caracteres del documento a UTF-8 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura la ventana gráfica para que el diseño sea adaptable a diferentes dispositivos -->
   <title>Document</title>
+  <!-- Título del documento que aparece en la pestaña del navegador -->
 </head>
 
 <body>
   <main>
+    <!-- Contenedor principal de la página -->
     <form id="myForm">
+      <!-- Formulario con un id "myForm" -->
       <label for="name">Nombre:</label>
+      <!-- Etiqueta asociada al campo de entrada "name" -->
       <input type="text" id="name" name="name" required>
+      <!-- Campo de entrada de texto con id "name", atributo "required" para validación -->
 
       <label for="email">Correo:</label>
+      <!-- Etiqueta asociada al campo de entrada "email" -->
       <input type="email" id="email" name="email" required>
+      <!-- Campo de entrada de correo con id "email", atributo "required" para validación -->
 
       <button type="submit">Submit</button>
+      <!-- Botón para enviar el formulario -->
     </form>
   </main>
   <script src="app.js"></script>
+  <!-- Enlace a un archivo JavaScript externo llamado "app.js" -->
 </body>
 
 </html>
