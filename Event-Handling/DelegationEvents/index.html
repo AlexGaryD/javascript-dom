@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Declaración del tipo de documento HTML5 y elemento raíz del documento -->
 
 <head>
   <meta charset="UTF-8">
+  <!-- Establece la codificación de caracteres del documento a UTF-8 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura la ventana gráfica para que el diseño sea adaptable a diferentes dispositivos -->
   <title>Document</title>
+  <!-- Título del documento que aparece en la pestaña del navegador -->
 
   <style>
+    /* Estilos CSS para los elementos de la página */
     main {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      /* Centra el contenido vertical y horizontalmente */
     }
 
     ul {
       list-style: none;
       padding: 0;
       margin: 0;
+      /* Elimina el estilo de lista predeterminado */
     }
 
     li {
@@ -25,30 +32,41 @@
       border: 1px solid black;
       margin: 1rem;
       cursor: pointer;
+      /* Estilo para los elementos de la lista */
     }
 
     li:hover {
       background-color: #ccc;
+      /* Cambia el fondo al pasar el mouse por encima */
     }
 
     .highlight {
       background-color: #81fa07;
       color: white;
+      /* Estilo para resaltar un elemento seleccionado */
     }
   </style>
 </head>
 
 <body>
   <main>
+    <!-- Contenedor principal de la página -->
     <ul>
+      <!-- Lista desordenada -->
       <li>Option 1</li>
+      <!-- Elemento de lista con texto "Option 1" -->
       <li>Option 2</li>
+      <!-- Elemento de lista con texto "Option 2" -->
       <li>Option 3</li>
+      <!-- Elemento de lista con texto "Option 3" -->
       <li>Option 4</li>
+      <!-- Elemento de lista con texto "Option 4" -->
       <li>Option 5</li>
+      <!-- Elemento de lista con texto "Option 5" -->
     </ul>
   </main>
   <script src="app.js"></script>
+  <!-- Enlace a un archivo JavaScript externo llamado "app.js" -->
 </body>
 
 </html>
