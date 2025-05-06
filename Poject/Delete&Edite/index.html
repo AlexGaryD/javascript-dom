@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Declaración del tipo de documento HTML5 y elemento raíz del documento -->
 
 <head>
   <meta charset="UTF-8">
+  <!-- Establece la codificación de caracteres del documento a UTF-8 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura la ventana gráfica para que el diseño sea adaptable a diferentes dispositivos -->
   <title>Task Manager</title>
+  <!-- Título del documento que aparece en la pestaña del navegador -->
   <link rel="stylesheet" href="style.css">
+  <!-- Enlace a un archivo CSS externo para los estilos -->
 </head>
 
 <body>
   <div id="theme-toggle">
+    <!-- Contenedor para el botón de alternar tema -->
     <button id="toggle-theme-btn">Toggle Theme</button>
+    <!-- Botón para alternar entre temas (oscuro y claro) -->
   </div>
   <div id="task-manager">
+    <!-- Contenedor principal del administrador de tareas -->
     <h1>Task Manager</h1>
+    <!-- Título principal de la aplicación -->
     <form id="task-form">
+      <!-- Formulario para agregar nuevas tareas -->
       <input type="text" id="task-input" placeholder="Enter a new task" required>
+      <!-- Campo de entrada para escribir una nueva tarea, con el atributo "required" para validación -->
       <button type="submit">Add Task</button>
+      <!-- Botón para enviar el formulario y agregar la tarea -->
     </form>
     <ul id="task-list">
+      <!-- Lista desordenada donde se mostrarán las tareas -->
       <li>
         Task Content
+        <!-- Texto de ejemplo para una tarea -->
         <span class="delete-btn">❌</span>
+        <!-- Botón para eliminar la tarea -->
         <span class="edit-btn">✏️</span>
+        <!-- Botón para editar la tarea -->
       </li>
     </ul>
   </div>
   <script src="app.js"></script>
+  <!-- Enlace a un archivo JavaScript externo llamado "app.js" -->
 </body>
 
 </html>
