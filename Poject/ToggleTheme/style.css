@@ -38,12 +38,12 @@ body {
 
 /* Dark theme styles */
 body.dark-theme {
-  background-color: #333;
+  background-color: #FFE4C4;
   color: #fff;
 }
 
 .dark-theme #task-manager {
-  background: #222;
+  background: #DEB887;
   color: #fff;
 }
 
